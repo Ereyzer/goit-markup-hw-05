@@ -807,7 +807,8 @@ text-align: center;
    
 }
 
-.portfolio-link:hover .card-overlay p {
+.portfolio-link:hover .card-overlay p,
+.portfolio-link:focus .card-overlay p {
     
    transform: translateY(-100%);
 }
